@@ -11,6 +11,8 @@ marketType varchar(50) not null,
 cmdtyName varchar(50) not null,
 priceUnit varchar(50) not null,
 convFctr int not null,
-price int not null
+price int not null,
+id varchar(50) not null,
+ti timestamp not null
 );
 </pre>
