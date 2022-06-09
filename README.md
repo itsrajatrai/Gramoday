@@ -1,4 +1,13 @@
 # Gramoday
+
+### Content
+- Problem Statement
+- Dependencies
+- Instructions to run the application
+- Database
+- Ideal Request and Response
+
+
 ## Problem Statement
 To build an express JS API web-service which captures user contributed
 reports and returns an aggregate report in response.
