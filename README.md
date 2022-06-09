@@ -31,7 +31,13 @@ These can be installed using <b> npm </b> or <b>yarn</b>.
 - Type npm install to install any dependencies
 - Type npm start
 
+## Database
+
+### Relation Schema
+![Table Report](https://user-images.githubusercontent.com/61858752/172762538-34cb0906-4aa7-41a8-b544-4fa697dd3a98.png)
+
 ### SQL to create the table
+
 <pre>
 Create table report(
 userID varchar(50) Primary key Not null,
@@ -47,5 +53,3 @@ id varchar(50) not null,
 ti timestamp not null
 );
 </pre>
-
-![Table Report](https://user-images.githubusercontent.com/61858752/172762538-34cb0906-4aa7-41a8-b544-4fa697dd3a98.png)
