@@ -16,3 +16,5 @@ id varchar(50) not null,
 ti timestamp not null
 );
 </pre>
+
+![Table Report](https://user-images.githubusercontent.com/61858752/172762538-34cb0906-4aa7-41a8-b544-4fa697dd3a98.png)
