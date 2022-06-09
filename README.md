@@ -62,3 +62,30 @@ id varchar(50) not null,
 ti timestamp not null
 );
 </pre>
+
+## Ideal Request and Response
+
+### Platform used for Testing : Postman
+
+### /reports POST
+- Url: http://localhost:8000/reports
+- Request : <pre> {
+    "userID": "user-9",
+    "marketID": "market-2",
+    "marketName": "Vashi Navi Mumbai",
+    "cmdtyID": "cmdty-3",
+    "marketType": "Mandi",
+    "cmdtyName": "Peas",
+    "priceUnit": "Bag",
+      "convFctr": 50,
+      "price": 852
+
+
+  }
+  </pre>
+- Response : <pre>
+{
+    "status": "success",
+    "reportid": "r8n3l"
+}
+</pre>
