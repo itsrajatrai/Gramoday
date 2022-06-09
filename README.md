@@ -40,6 +40,8 @@ These can be installed using <b> npm </b> or <b>yarn</b>.
 - Type npm install to install any dependencies
 - Type npm start
 
+<pre> Application should start running at http://localhost:8000 </pre>
+
 ## Database
 
 ### Relation Schema
