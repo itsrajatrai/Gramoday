@@ -89,3 +89,39 @@ ti timestamp not null
     "reportid": "r8n3l"
 }
 </pre>
+
+
+### /reports GET
+- Url: http://localhost:8000/reports?reportID=r8n3l
+- Request : <pre> 
+NA
+  </pre>
+- Response : <pre>
+{
+    "status": "success",
+    "data": [
+        [
+            {
+                "price": "15.52"
+            }
+        ],
+        [
+            {
+                "userid": "user-8"
+            },
+            {
+                "userid": "user-9"
+            }
+        ],
+        {
+            "id": "r8n3l",
+            "marketname": "Vashi Navi Mumbai",
+            "cmdtyname": "Peas",
+            "cmdtyid": "cmdty-3",
+            "marketid": "market-2",
+            "priceunit": "kg"
+        }
+    ]
+}
+</pre>
+
